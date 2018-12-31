@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>fr</groupId>
+	<artifactId>math-plotter</artifactId>
+	<version>0.2</version>
+	<packaging>war</packaging>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+	</properties>
+
+	<dependencies>
+
+		<!-- API SERVLET -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- POUR JSTL -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>fr</groupId>
+			<artifactId>math-calculator</artifactId>
+			<version>0.2</version>
+		</dependency>
+
+	</dependencies>
+	
+	<!-- plugin to create an embedded Tomcat server -->
+<!--    <build> -->
+<!--       <finalName>javawebapp</finalName> -->
+<!--       <pluginManagement> -->
+<!--            <plugins> -->
+<!--             <plugin> -->
+<!--                <groupId>org.apache.tomcat.maven</groupId> -->
+<!--                <artifactId>tomcat7-maven-plugin</artifactId> -->
+<!--                <version>2.1</version> -->
+<!--                <configuration> -->
+<!--                  context root for Java web apps -->
+<!--                  <path>/math-plotter</path> -->
+<!--                  name of executable jar file -->
+<!--                  <finalName>executable.jar</finalName> -->
+<!--                </configuration> -->
+<!--             </plugin> -->
+<!--          </plugins> -->
+<!--       </pluginManagement> -->
+<!--    </build> -->
+
+</project>
