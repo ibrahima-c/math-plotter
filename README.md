@@ -5,4 +5,4 @@ This project uses the [mathematical expression parser](https://github.com/ibrahi
 
 ### ---
  
-![alt text](Capture.png)
+![alt text](https://github.com/ibrahima-c/math-plotter/Capture.png)
